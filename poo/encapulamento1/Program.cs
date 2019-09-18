@@ -13,6 +13,7 @@ namespace encapulamento1
             Console.WriteLine(p.GetNome());
             Console.WriteLine(p.GetPreco());
             Console.WriteLine(p.GetQuantidade());
+            Console.WriteLine(p);
             Console.Read();
 
         }
