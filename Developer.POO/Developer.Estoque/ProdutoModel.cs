@@ -21,13 +21,10 @@
             Total = total;
         }
 
-        public ProdutoModel(int id, string nome, double preco, int quantidade, double total)
+        public ProdutoModel(int id, string nome, double preco, int quantidade, double total) : this(nome, preco, quantidade, total)
         {
             Id = id;
-            Nome = nome;
-            Preco = preco;
-            Quantidade = quantidade;
-            Total = total;
+
         }
 
     }
