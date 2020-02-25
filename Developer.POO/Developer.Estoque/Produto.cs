@@ -23,7 +23,7 @@ namespace Developer.Estoque
             int quantidade = int.Parse(Console.ReadLine());
             double total = preco * quantidade;
             
-            ProdutoModel produto = new ProdutoModel(_Id, nome, preco, quantidade, total);
+            ProdutoModel produto = new ProdutoModel(nome, preco, quantidade, total);
 
             var exists = ListaProduto.Exists(p => p.Nome.ToLower() == produto.Nome.ToLower());
 

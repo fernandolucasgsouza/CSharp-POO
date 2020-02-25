@@ -8,6 +8,19 @@
         public int Quantidade { get; set; }
         public double Total { get; set; }
 
+        public ProdutoModel()
+        {
+
+        }
+
+        public ProdutoModel(string nome, double preco, int quantidade, double total)
+        {
+            Nome = nome;
+            Preco = preco;
+            Quantidade = quantidade;
+            Total = total;
+        }
+
         public ProdutoModel(int id, string nome, double preco, int quantidade, double total)
         {
             Id = id;
@@ -16,6 +29,7 @@
             Quantidade = quantidade;
             Total = total;
         }
+
     }
 
 }
