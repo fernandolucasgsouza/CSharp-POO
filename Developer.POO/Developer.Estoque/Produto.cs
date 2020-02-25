@@ -15,15 +15,15 @@ namespace Developer.Estoque
 
         public void AdicionarProdutoEmEstoque()
         {
-            ProdutoModel produto = new ProdutoModel();
-
             Console.Write("informe NOME do produto: ");
-            produto.Nome = Console.ReadLine();
+            string nome = Console.ReadLine();
             Console.Write("informe PREÇO do produto: ");
-            produto.Preco = double.Parse(Console.ReadLine());
+            double preco = double.Parse(Console.ReadLine());
             Console.Write("informe QUANTIDADE do produto: ");
-            produto.Quantidade = int.Parse(Console.ReadLine());
-            produto.Total = produto.Preco * produto.Quantidade;
+            int quantidade = int.Parse(Console.ReadLine());
+            double total = preco * quantidade;
+            
+            ProdutoModel produto = new ProdutoModel(_Id, nome, preco, quantidade, total);
 
             var exists = ListaProduto.Exists(p => p.Nome.ToLower() == produto.Nome.ToLower());
 
