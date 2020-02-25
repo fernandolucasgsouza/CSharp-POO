@@ -6,11 +6,11 @@ namespace Developer.Estoque
     public class Produto
     {
         List<ProdutoModel> ListaProduto = new List<ProdutoModel>();
-        private int _Id;
+        private int _id;
 
         public Produto()
         {
-            _Id = 0;
+            _id = 0;
         }
 
         public void AdicionarProdutoEmEstoque()
@@ -33,8 +33,8 @@ namespace Developer.Estoque
             }
             else
             {
-                _Id++;
-                produto.Id = _Id;
+                _id++;
+                produto.Id = _id;
                 ListaProduto.Add(produto);
             }
             Console.WriteLine($"Inserido com sucesso\n");
@@ -44,11 +44,11 @@ namespace Developer.Estoque
         public void RemoverProdutoEmEstoque()
         {
             Console.Write("Informe o (Id) do item : ");
-            int _id = int.Parse(Console.ReadLine());
+            int id = int.Parse(Console.ReadLine());
 
             foreach (var item in ListaProduto)
             {
-                if (item.Id == _id)
+                if (item.Id == id)
                 {
                     ListaProduto.Remove(item);
                     Estoque();

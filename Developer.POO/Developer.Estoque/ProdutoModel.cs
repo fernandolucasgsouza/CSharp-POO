@@ -3,7 +3,7 @@
     public class ProdutoModel
     {
         public int Id { get; set; }
-        public string Nome { get; set; }
+        private string _nome { get; set; }
         public double Preco { get; set; }
         public int Quantidade { get; set; }
         public double Total { get; set; }
@@ -25,6 +25,18 @@
         {
             Id = id;
 
+        }
+
+        public string Nome
+        {
+            get
+            {
+                return _nome;
+            }
+            set
+            {
+                if (value != null) _nome = value;
+            }
         }
 
     }
