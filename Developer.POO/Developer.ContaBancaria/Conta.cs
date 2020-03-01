@@ -1,7 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Globalization;
-using System.Text;
+﻿using System.Globalization;
 
 namespace Developer.ContaBancaria
 {
@@ -17,9 +14,9 @@ namespace Developer.ContaBancaria
             Titular = titular;
         }
 
-        public Conta(int numero, string titular, decimal saldo) : this(numero, titular)
+        public Conta(int numero, string titular, decimal depositoInicial) : this(numero, titular)
         {
-            Saldo = saldo;
+            Deposito(depositoInicial);
         }
 
         public void Deposito(decimal valor)
@@ -34,10 +31,9 @@ namespace Developer.ContaBancaria
             Saldo -= valor + taxa;
         }
 
-
         public override string ToString()
         {
-            return $"\nDados da Conta :\nConta: {Numero}, Titular: {Titular}, Saldo: R${Saldo.ToString("F2", CultureInfo.InvariantCulture)}";
+            return $"Conta: {Numero}, Titular: {Titular}, Saldo: R${Saldo.ToString("F2", CultureInfo.InvariantCulture)}";
         }
 
 
