@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace Developer.Estoque
+﻿namespace Developer.Estoque
 {
     class Program
     {
