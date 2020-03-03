@@ -1,6 +1,6 @@
 ﻿using System.Globalization;
 
-namespace Developer.ContaBancaria
+namespace Developer.Conta.Bancaria
 {
     public class Conta
     {

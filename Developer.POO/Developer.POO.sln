@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Developer.Calc.Triangulo", 
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Developer.Estoque", "Developer.Estoque\Developer.Estoque.csproj", "{CB51AD43-10FA-42A2-A695-0440FAAFD3E7}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Developer.ContaBancaria", "Developer.ContaBancaria\Developer.ContaBancaria.csproj", "{15CB9C6E-6E3B-46F9-A4D9-CB72BCDB8241}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Developer.Conta.Bancaria", "Developer.ContaBancaria\Developer.Conta.Bancaria.csproj", "{15CB9C6E-6E3B-46F9-A4D9-CB72BCDB8241}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Developer.Vetor", "Developer.Vetor\Developer.Vetor.csproj", "{FEDCE531-2667-4018-BFBD-DE98C58EE03F}"
 EndProject

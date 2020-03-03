@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Globalization;
 
-namespace Developer.ContaBancaria
+namespace Developer.Conta.Bancaria
 {
     class Program
     {
