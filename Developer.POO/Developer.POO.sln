@@ -13,6 +13,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Developer.Vetor", "Develope
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Developer.Parametros.Dinamicos", "Developer.Parametros.Dinamicos\Developer.Parametros.Dinamicos.csproj", "{4EA56D33-243E-489D-8BBA-0B10B349384A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Developer.Parametros.Ref.Out", "Developer.Parametros.Ref.Out\Developer.Parametros.Ref.Out.csproj", "{60B9FDF9-87B9-4EE4-972B-BCCD16F44FD8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{4EA56D33-243E-489D-8BBA-0B10B349384A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4EA56D33-243E-489D-8BBA-0B10B349384A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4EA56D33-243E-489D-8BBA-0B10B349384A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60B9FDF9-87B9-4EE4-972B-BCCD16F44FD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60B9FDF9-87B9-4EE4-972B-BCCD16F44FD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60B9FDF9-87B9-4EE4-972B-BCCD16F44FD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60B9FDF9-87B9-4EE4-972B-BCCD16F44FD8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
