@@ -6,7 +6,7 @@ namespace Developer.Parametros.Dinamicos
     {
         static void Main(string[] args)
         {
-            double soma = Calculator.Sum(1,2,3,4);
+            double soma = Calculator.Sum(1,2,3.25,4);
             Console.WriteLine($"Soma = {soma}");
         }
     }
