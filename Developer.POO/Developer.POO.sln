@@ -15,6 +15,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Developer.Parametros.Dinami
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Developer.Parametros.Ref.Out", "Developer.Parametros.Ref.Out\Developer.Parametros.Ref.Out.csproj", "{60B9FDF9-87B9-4EE4-972B-BCCD16F44FD8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Developer.Lista", "Developer.Lista\Developer.Lista.csproj", "{A64180CF-DCB0-4A9B-A943-B00DD8668622}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -45,6 +47,10 @@ Global
 		{60B9FDF9-87B9-4EE4-972B-BCCD16F44FD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60B9FDF9-87B9-4EE4-972B-BCCD16F44FD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60B9FDF9-87B9-4EE4-972B-BCCD16F44FD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A64180CF-DCB0-4A9B-A943-B00DD8668622}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A64180CF-DCB0-4A9B-A943-B00DD8668622}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A64180CF-DCB0-4A9B-A943-B00DD8668622}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A64180CF-DCB0-4A9B-A943-B00DD8668622}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
