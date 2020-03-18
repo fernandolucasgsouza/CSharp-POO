@@ -112,8 +112,7 @@ namespace Developer.Lista
             Console.WriteLine("\n---\n");
 
 
-            //remove range 'M'
-
+            //remove range 
             int posicao_init = 2;
             int quantidade = 2;
             list1.RemoveRange(posicao_init, quantidade);
