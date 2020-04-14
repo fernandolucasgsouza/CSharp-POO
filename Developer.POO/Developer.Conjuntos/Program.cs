@@ -7,6 +7,8 @@ namespace Developer.Conjuntos
     {
         static void Main(string[] args)
         {
+
+
             HashSet<int> Conj_A = new HashSet<int>();
             Conj_A.Add(3);
             Conj_A.Add(5);
